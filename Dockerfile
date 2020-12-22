@@ -1,3 +1,3 @@
 FROM ubuntu:latest
 
-CMD ["sleep", "1"]
+CMD ["sleep", "2"]
