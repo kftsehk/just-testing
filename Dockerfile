@@ -1,6 +1,6 @@
 FROM amazonlinux:latest
 
 ENV TZ=Asia/Hong_Kong
-RUN sleep 2
+RUN sleep 3
 
 CMD ["sleep", "3"]
