@@ -1,3 +1,3 @@
-FROM amazonlinux:2
+FROM amazonlinux:latest
 
 CMD ["sleep", "3"]
