@@ -1,5 +1,6 @@
-FROM 135595574942.dkr.ecr.ap-northeast-1.amazonaws.com/amazonlinux:latest
+FROM amazonlinux:latest
 
-RUN sleep 1
+ENV TZ=Asia/Hong_Kong
+RUN sleep 2
 
 CMD ["sleep", "3"]
