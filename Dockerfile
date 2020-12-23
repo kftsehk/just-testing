@@ -1,3 +1,3 @@
-FROM aws/codebuild/amazonlinux2-x86_64-standard:3.0
+FROM FROM golang:1.12-alpine
 
 CMD ["sleep", "3"]
