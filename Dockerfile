@@ -1,3 +1,3 @@
 FROM amazonlinux:latest
 
-CMD ["sleep", "3"]
+CMD ["sleep", "4"]
