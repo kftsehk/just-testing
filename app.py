@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # TODO: load your models here
 # Exception will not pass healthcheck
-# raise Exception("Model error")
+raise Exception("Model error")
 
 if os.getenv('CI') != '1':
     # TODO: init anything that requires a connection, these will not run in CI build
