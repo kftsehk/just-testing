@@ -11,7 +11,7 @@ if os.getenv('CI') != '1':
 
 @app.route('/healthcheck')
 def healthcheck():
-    return "OK!"
+    return "OK!1"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)
