@@ -1,4 +1,4 @@
-FROM amazonlinux:latest
+FROM 135595574942.dkr.ecr.ap-northeast-1.amazonaws.com/amazonlinux:latest
 
 ENV TZ=Asia/Hong_Kong
 RUN yum install python3 -y
