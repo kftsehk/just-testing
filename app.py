@@ -9,7 +9,7 @@ if os.getenv('CI') != '1':
     # init anything that requires a connection, these will not be checked
     pass
 
-@app.route('/healthcheck')
+@app.route('/healthchec')
 def healthcheck():
     return "OK!1"
 
