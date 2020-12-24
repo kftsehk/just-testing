@@ -1,6 +1,7 @@
 FROM amazonlinux:latest
 
 ENV TZ=Asia/Hong_Kong
-RUN sleep 3
+RUN yum install python3 -y
+ADD ./app.py .
 
-CMD ["sleep", "4"]
+CMD ["python3", "app.py"]
