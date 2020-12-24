@@ -9,9 +9,9 @@ if os.getenv('CI') != '1':
     # init anything that requires a connection, these will not be checked
     pass
 
-@app.route('/healthchec')
+@app.route('/healthcheck')
 def healthcheck():
     return "OK!1"
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0', port=81)
